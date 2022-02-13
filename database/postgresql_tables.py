@@ -10,7 +10,7 @@ class Tables():
     CREATE_TABLE_COMMAND = 'CREATE TABLE {} ({})'
     PRIMARY_KEY = 'PRIMARY KEY'
 
-    def __init__(self, file_path='../database/conf/data-dictionary.xml'):
+    def __init__(self, file_path='./database/conf/data-dictionary.xml'):
 
         tree = ET.parse(file_path)
         self.tables = tree.getroot()
