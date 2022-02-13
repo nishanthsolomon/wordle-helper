@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data-dictionary name="Wordle">
+
+    <table name="Wordle_Words">
+
+        <columns>
+
+            <column name="WORD_ID">
+                <data-type>SERIAL</data-type>
+                <constraints>PRIMARY KEY</constraints>
+            </column>
+
+            <column name="LETTER_1">
+                <data-type>CHAR(1)</data-type>
+                <constraints>NOT NULL</constraints>
+            </column>
+
+            <column name="LETTER_2">
+                <data-type>CHAR(1)</data-type>
+                <constraints>NOT NULL</constraints>
+            </column>
+
+            <column name="LETTER_3">
+                <data-type>CHAR(1)</data-type>
+                <constraints>NOT NULL</constraints>
+            </column>
+
+            <column name="LETTER_4">
+                <data-type>CHAR(1)</data-type>
+                <constraints>NOT NULL</constraints>
+            </column>
+
+            <column name="LETTER_5">
+                <data-type>CHAR(1)</data-type>
+                <constraints>NOT NULL</constraints>
+            </column>
+
+        </columns>
+
+    </table>
+
+</data-dictionary>
